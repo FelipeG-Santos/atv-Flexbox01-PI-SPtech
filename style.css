@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #212427
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+.pai {
+    /* WIDTH: Largura  */
+    width: 80%;
+     /* HEIGHT: Altura  */
+    height: 350px;
+     /* MARGIN: Distancia dos outros elementos externos da borda */
+    margin: auto;
+    /* BACKGROUND-COLOR: Cor */
+    background-color: antiquewhite;
+    /*  BORDER: SOLID : a borda é continua, podendo ser pontilhada, ou diferente. */
+    border: solid 2px #212427;
+    /* DISPLAY: FLEX: Alinhar itens perfeitamente no centro com poucas linhas de código. */
+    display:flex;
+    /* JUSTIFY-CONTENT: organiza os itens em posições horizontais. */
+    justify-content: flex-start;
+    /* ALING-ITEMS: organiza os itens em posições verticais. */
+    align-items: flex-start;
+    /* FLEX-DIRECTION: Linha(row) ou coluna (column) */
+    flex-direction: row;
+   
+    
+}
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.cor1 {
+    background-color: #ED145B;
+    /* ALIGN-SELF: Organiza o iten de forma individual. */
+     align-self: flex-start;
+     /* ORDER: Ordena a ordem da posição dos itens */
+     order: 1;
+}
+
+.cor2 {
+    background-color: #63B1BC;
+    align-self: flex-end;
+    order: 3;
+    
+}
+
+.cor3 {
+    background-color: #EFB661;
+    align-self: center;
+    order: 2;
+}
+
+.instrucoes {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: antiquewhite;
+    height: 130px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
